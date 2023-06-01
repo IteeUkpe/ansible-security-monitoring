@@ -50,6 +50,7 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 
 Example Playbook
 ----------------
+```
 ---
 - name: Install NGINX 
   hosts: nms_server
@@ -57,7 +58,7 @@ Example Playbook
   ignore_errors: true
   roles:
     - nms-nap-compiler
----
+```
 
 Author Information
 ------------------
