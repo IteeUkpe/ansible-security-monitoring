@@ -7,6 +7,7 @@ Requirements
 ------------
 1. NGINX Management Suite License Files
 2. NGINX Ansible Role (nginxinc.nginx)
+3. Ansible Role NGINX Management Suite (nginxinc.nginx)
 
 NGINX Management Suite Certificate Files
 ------------
