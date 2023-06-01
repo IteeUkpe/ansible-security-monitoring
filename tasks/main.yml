@@ -1,0 +1,30 @@
+---
+- name: Install Security Monitoring on CentOS/ Red Hat
+  become: true
+  ansible.builtin.yum:
+    name: nms-sm
+    state: latest
+    update_cache: yes
+  when: ansible_distribution in ['CentOS', 'RedHat']
+
+
+- name: Install Security Monitoring on Debian/ Ubuntu
+  become: true
+  ansible.builtin.apt:
+    name: nms-sm
+    state: latest
+    update_cache: yes
+  when: ansible_distribution in ['Debian', 'Ubuntu']
+
+
+- name: Restart Nginx Management Suite Services
+  ansible.builtin.service:
+    name: nms
+    state: restarted
+
+- name: Restart Nginx Web Server
+  ansible.builtin.service:
+    name: nginx
+    state: restarted
+
+
