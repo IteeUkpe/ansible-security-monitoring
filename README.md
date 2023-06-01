@@ -15,7 +15,8 @@ Installing NMS requires the NMS certificate files to access the repository. Log 
 
 - nginx-mgmt-suite-trial.key
 - nginx-mgmt-suite-trial.crt
-NOTE: Be sure to rename these files to nginx-repo.key and nginx-repo.crt, respectively.
+
+- NOTE: Be sure to rename these files to nginx-repo.key and nginx-repo.crt, respectively.
 
 NGINX Instance
 NMS requires an NGINX instance, either NGINX OSS or NGINX Plus as a frontend only. This role handles this by defining a dependency to the NGINX Ansible Role, named nginxinc.nginx. Because of this dependance, you can set variables related to nginxinc.nginx when using this role. For example, nginx_type is an nginxinc.nginx variable that can be set like how you would any other Ansible variable. So if your playbook defines nginx_type: plus, this NMS role will call the nginxinc.nginx role which will install NGINX Plus. Refer to the Ansible Role NGINX for more details.
