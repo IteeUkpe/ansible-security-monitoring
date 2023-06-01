@@ -13,8 +13,8 @@ NGINX Management Suite Certificate Files
 ------------
 Installing NMS requires the NMS certificate files to access the repository. Log in to MyF5 or follow the link in the trial activation email to download the NMS repo .crt and .key files:
 
-nginx-mgmt-suite-trial.key
-nginx-mgmt-suite-trial.crt
+- nginx-mgmt-suite-trial.key
+- nginx-mgmt-suite-trial.crt
 NOTE: Be sure to rename these files to nginx-repo.key and nginx-repo.crt, respectively.
 
 NGINX Instance
