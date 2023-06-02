@@ -1,7 +1,7 @@
 galaxy_info:
   author: nginxinc
-  description: Official Ansible role for the NGINX Management Suite
-  role_name: nginx_management_suite
+  description: Official Ansible role for the NMS App Protect Compiler
+  role_name: nms-nap-compiler
   company: F5, Inc.
 
   license: Apache License, Version 2.0
