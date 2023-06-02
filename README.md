@@ -58,7 +58,7 @@ Example Playbook
   become: true
   ignore_errors: true
   roles:
-    - nms-nap-compiler
+    - security_monitoring
 ```
 
 Author Information
