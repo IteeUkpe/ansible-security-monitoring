@@ -1,4 +1,4 @@
-Role Name
+Ansible NGINX Security Monitoring
 =========
 
 This ansible role helps in installing Nginx App Protect Compiler on NGINX Instance Manager. 
