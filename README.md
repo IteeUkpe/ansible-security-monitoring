@@ -51,6 +51,7 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 
 Example Playbook
 ----------------
+playbook.yml
 ```
 ---
 - name: Install NGINX 
@@ -60,7 +61,10 @@ Example Playbook
   roles:
     - security_monitoring
 ```
-
+To run the playbook:
+```
+ansible-playbook playbook.yml
+```
 Author Information
 ------------------
 
