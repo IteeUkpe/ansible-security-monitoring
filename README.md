@@ -51,7 +51,7 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 
 Example Playbook
 ----------------
-playbook.yml
+travis.yml
 ```
 ---
 - name: Install NGINX 
@@ -63,7 +63,7 @@ playbook.yml
 ```
 To run the playbook:
 ```
-ansible-playbook playbook.yml
+ansible-playbook travis.yml
 ```
 Author Information
 ------------------
